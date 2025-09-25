@@ -300,7 +300,7 @@ stock VerificarTeleport(playerid)
     return 1;
 
 }
-
+//Timer encargado de teletransportar al jugador
 timer SetTeleportUserPos[1500](playerid, destino)
 {
     printf("destino: %i", destino);
